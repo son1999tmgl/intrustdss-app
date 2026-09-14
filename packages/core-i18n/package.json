@@ -1,0 +1,17 @@
+{
+  "name": "@superapp/core-i18n",
+  "version": "1.0.0",
+  "description": "Shared multi-language (i18n) resources and configuration for Super App",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "i18next": "^26.4.2",
+    "react-i18next": "^17.0.13"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

@@ -1,0 +1,27 @@
+# ==============================================================================
+# QUY TẮC PHÂN QUYỀN MÃ NGUỒN (CODEOWNERS) - SUPER APP MONOREPO
+# ==============================================================================
+# Mỗi khi có Pull Request đụng đến các thư mục dưới đây, Git sẽ bắt buộc
+# phải có sự phê duyệt (Approve) từ tài khoản/nhóm tương ứng mới được merge.
+
+# 1. Tầng lõi và Host Container (Chỉ Lead Architect / Core Team được duyệt)
+/apps/host-app/               @core-lead @superapp-architects
+/packages/                    @core-lead @superapp-architects
+/package.json                 @core-lead
+/pnpm-workspace.yaml          @core-lead
+/tsconfig.base.json           @core-lead
+
+# 2. Sub-App 01: Quét Mã & Quản Lý Kho
+/sub-apps/sub-app-scanner/    @team-scanner-lead @team-scanner-devs
+
+# 3. Sub-App 02: Quản Lý Đơn Hàng
+/sub-apps/sub-app-orders/     @team-orders-lead @team-orders-devs
+
+# 4. Sub-App 03: Tin Nhắn & Chat Nội Bộ
+/sub-apps/sub-app-chat/       @team-chat-lead @team-chat-devs
+
+# 5. Sub-App 04: Báo Cáo & Thống Kê
+/sub-apps/sub-app-reports/    @team-reports-lead @team-reports-devs
+
+# 6. Sub-App 05: Tài Khoản & Nhân Viên
+/sub-apps/sub-app-profile/    @team-profile-lead @team-profile-devs

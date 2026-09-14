@@ -1,0 +1,13 @@
+{
+  "name": "@superapp/core-contracts",
+  "version": "1.0.0",
+  "description": "Shared TypeScript contracts, interfaces, and route definitions for Super App",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

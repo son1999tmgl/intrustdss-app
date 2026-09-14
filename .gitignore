@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build artifacts
+dist/
+build/
+*.bundle
+*.bundle.map
+
+# Android
+apps/**/android/.gradle/
+apps/**/android/app/build/
+apps/**/android/build/
+apps/**/android/.idea/
+*.apk
+*.aab
+
+# iOS
+apps/**/ios/Pods/
+apps/**/ios/build/
+*.ipa
+
+# Environment & Temp
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
