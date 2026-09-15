@@ -17,6 +17,7 @@ Tài liệu được chia nhỏ thành các module trong thư mục `docs/` đ�
 | **04** | [Quy Tắc Code Cho Lập Trình Viên Angular](docs/04-coding-conventions-for-angular-devs.md) | Chuyển đổi tư duy từ Angular sang React Native: OOP/Service sang Custom Hooks, Zustand State, cách viết logic phức tạp. |
 | **05** | [Lộ Trình & Hướng Dẫn Thực Thi](docs/05-roadmap-and-execution-guide.md) | Lộ trình 5 giai đoạn phát triển, cài đặt môi trường ban đầu (VS Code, Android Studio, Xcode, Re.Pack). |
 | **06** | [Sổ Tay Câu Lệnh Thường Dùng](docs/06-commands-cheatsheet.md) | **Cheatsheet thực chiến:** Toàn bộ câu lệnh pnpm workspaces, build, chạy app Android, debug ADB, phím tắt in-app. |
+| **07** | [Hướng Dẫn Chạy & Debug](docs/07-how-to-run-and-debug.md) | **Cẩm nang chạy app:** Từng bước bật Gỡ lỗi USB cắm điện thoại thật, bật máy ảo Android Studio, phím tắt reload và sửa lỗi kết nối. |
 
 ---
 
